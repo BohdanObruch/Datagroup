@@ -4,7 +4,7 @@ from datagroup_tests.model.authorization import (authorization_on_the_site,
                                                  display_dashboard)
 
 
-def test_receiving_a_daily_bonus(setup_browser):
+def test_internet_quality_check(setup_browser):
     opened_page_website()
 
     authorization_on_the_site()
