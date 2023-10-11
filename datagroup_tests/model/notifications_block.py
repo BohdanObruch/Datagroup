@@ -1,7 +1,5 @@
 import time
-
 from selene import browser, be, have
-
 from datagroup_tests.helpers.locator import *
 from datagroup_tests.model.screenshot import creating_and_saving_a_screenshot
 
