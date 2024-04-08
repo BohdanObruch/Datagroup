@@ -10,9 +10,6 @@ def checking_the_display_of_the_notifications_block():
                                             .or_(have.text('Аварія на Вашій ділянці'))):
             creating_and_saving_a_screenshot()
             assert False, 'По вашому будинку аварія послуги Інтернет'
-        else:
-            pass
+
     elif browser.element(alert_block).with_(timeout=10).matching(be.not_.visible):
-        pass
-    else:
         pass
